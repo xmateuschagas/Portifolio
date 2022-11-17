@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mateus Chagas</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d91d0be6a0.js" crossorigin="anonymous"></script>
+
+  <style>
+    .foto-perfil {
+      height: 100%;
+      width: auto;
+      max-width: 100%;
+      border-radius: 50%;
+    }
+
+    .corprimaria {
+      background-color: #9EC8F3;
+    }
+
+    .corsecundaria {
+      background-color: #043959;
+    }
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: black !important;
+
+    }
+
+    .icones {
+      padding-left: 5px;
+    }
+
+    .titulosbrancos {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+
+    .titulosazul {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #9EC8F3;
+    }
+
+    .textobranco {
+      color: white !important;
+    }
+
+    .jumbotron {
+      margin-bottom: 0px;
+    }
+
+    .textofooter {
+      margin: 0px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+      {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+      {
+      box-sizing: border-box;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #043959;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="corsecundaria navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand textobranco" href="#">Mateus Barreto das Chagas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link textobranco" href="#sobre-mim">Sobre mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textobranco" href="#Academico">Academico</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textobranco" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textobranco" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="jumbotron text-center corprimaria">
+    <div style="padding-top:60px" class="container">
+      <img class="foto-perfil" src="./img/perfil360px.jpg" alt="">
+      <h1 class="jumbotron-heading textobranco">Mateus Chagas</h1>
+      <p class="lead textobranco">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Estudante de Engenharia de Software</font>
+        </font>
+      </p>
+      <p>
+        <a href="#contato" class="btn btn-dark my-2">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Contato</font>
+          </font>
+        </a>
+      </p>
+      <!--midia social-->
+      <a href="https://www.linkedin.com/in/mateus-chagas-1bb30231/"><i class="fab fa-linkedin textobranco"></i></a>
+      <a href="https://www.instagram.com/xmateuschagas/"><i class="icones fab fa-instagram textobranco"></i></a>
+      <a href="https://github.com/xmateuschagas"><i class="icones fab fa-github textobranco"></i></a>
+      <a href="https://www.facebook.com/XMateuschagas/"><i style="padding-bottom: 60px; margin-bottom: 0px;"
+          class="icones fab fa-facebook textobranco "></i></a>
+    </div>
+  </section>
+  <!--Projetos-->
+  <div class="album py-5 bg-light" id="projetos">
+    <div class="container">
+      <h2 style="padding-top:60px" class="jumbotron-heading text-center titulosazul">Projetos</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Miniatura [100%x225]" style="height: 225px; width: 100%; display: block;"
+              src="./img/pythonlancho.jfif" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Projeto feito para uma lanchonete. </font>
+                  <font style="vertical-align: inherit;">Com menu e finalização de pagamento.<ul>
+                      <li>Python</li>
+
+                    </ul>
+                  </font>
+                </font>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="github.com/xmateuschagas/lanchonete">
+                    <button type="button" class="btn btn-sm btn-outline-success">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Vizualizar projeto</font>
+                      </font>
+                    </button></a>
+                  <a href="github.com/xmateuschagas/lanchonete">
+                    <button type="button" class="btn btn-sm btn-outline-primary">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Código</font>
+                      </font>
+                    </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Projetos-->
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Miniatura [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/Python.jpg"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Projeto feito para um cinema </font>
+                  <font style="vertical-align: inherit;">Com escolha para os filmes disponiveis no momento.<ul>
+                      <li>Python</li>
+
+                    </ul>
+                  </font>
+                </font>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="github.com/xmateuschagas/lanchonete">
+                    <button type="button" class="btn btn-sm btn-outline-success">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Vizualizar projeto</font>
+                      </font>
+                    </button></a>
+                  <a href="github.com/xmateuschagas/lanchonete">
+                    <button type="button" class="btn btn-sm btn-outline-primary">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Código</font>
+                      </font>
+                    </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sobre mim -->
+    <section class="jumbotron text-center corprimaria" id="sobre-mim">
+      <div class="container">
+        <h2 style="padding-top:60px" class="jumbotron-heading titulosbrancos">Sobre mim</h2>
+        <p style="padding-bottom: 60px; margin-bottom: 0px;" class="lead textobranco"> Estudante de Engenharia de
+          Software, pela Universidade de Vassouras atualmente no
+          2° Periodo.<br>
+          Desenvolvendo conhecimentos sólidos na área de Python. </p>
+      </div>
+    </section>
+    <!--Academico-->
+
+    <section class="jumbotrontext-center" id="Academico">
+      <div class="container-fluid">
+        <h2 style="padding-top:60px" class="jumbotron text-center titulosazul">Acadêmico</h2>
+        <h3 class="jumbotron text-center">Universidade de Vassouras</h3>
+        <p class="jumbotron text-center">• Laboratório de Programação de Web Sites</p>
+        <p class="jumbotron text-center">• Gestão Empresarial</p>
+        <p class="jumbotron text-center">• Algoritmos</p>
+        <p class="jumbotron text-center">• Engenharia de Requisitos e Análise de Sistemas</p>
+        <p class="jumbotron text-center">• Prática de Leitura e Produção Textual</p>
+        <p class="jumbotron text-center">• Ética, Cidadania e Sociedade</p>
+        <p style="padding-bottom: 60px; margin-bottom: 0px;" class="jumbotron text-center">• Práticas Extensionistas
+          Integradoras II</p>
+
+      </div>
+    </section>
+
+
+    <!-- Contato -->
+    <section class="corprimaria" id="contato">
+      <div>
+        <div class="container-fluid">
+          <h3 style="padding-top:60px" class="text-center titulosbrancos">Disponível para oportunidades</h3>
+          <a href="mailto:mateuschagas@uff.idd.br">
+            <h4 style="padding-bottom: 60px; margin-bottom: 0px;" class="text-center ">Mateuschagas@uff.idd.br
+            </h4>
+          </a>
+
+          <div class="container">
+            <form action="action_page.php">
+
+              <label for="fname">Nome:</label>
+              <input type="text" id="fname" name="firstname" placeholder="Digite seu nome...">
+
+              <label for="Email">Email:</label>
+              <input type="text" id="Email" name="lastname" placeholder="Digite seu Email...">
+
+              <label for="country">Country</label>
+              <select name="estado">
+                <option selected="" value="">Selecione o Estado (UF)</option>
+                <option value="Acre">Acre</option>
+                <option value="Alagoas">Alagoas</option>
+                <option value="Amapá">Amapá</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Ceará">Ceará</option>
+                <option value="Distrito Federal">Distrito Federal</option>
+                <option value="Espírito Santo">Espírito Santo</option>
+                <option value="Goiás">Goiás</option>
+                <option value="Maranhão">Maranhão</option>
+                <option value="Mato Grosso">Mato Grosso</option>
+                <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Pará">Pará</option>
+                <option value="Paraíba">Paraíba</option>
+                <option value="Paraná">Paraná</option>
+                <option value="Pernambuco">Pernambuco</option>
+                <option value="Piauí">Piauí</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                <option value="Rondônia">Rondônia</option>
+                <option value="Roraima">Roraima</option>
+                <option value="Santa Catarina">Santa Catarina</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Sergipe">Sergipe</option>
+                <option value="Tocantins">Tocantins</option>
+              </select>
+
+              <label for="subject">Enviar</label>
+              <textarea id="subject" name="subject" placeholder="Deixe sua mensagem..." style="height:200px"></textarea>
+
+              <input type="submit" value="Submit">
+
+            </form>
+          </div>
+    </section>
+  </div>
+  </div>
+
+  </div>
+
+
+
+
+
+  <!-- footer -->
+  <footer class="text-center corsecundaria textofooter">
+    <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright MateusChagas®
+    </p>
+  </footer>
+</body>
+
+</html>
